@@ -1,0 +1,24 @@
+//
+//  BT_PrefixHeader.pch
+//  BTProject
+//
+//  Created by 明桐的Mac on 16/3/18.
+//  Copyright © 2016年 小谩的Mac. All rights reserved.
+//
+
+#ifndef BT_PrefixHeader_pch
+#define BT_PrefixHeader_pch
+    #import <UIKit/UIKit.h>
+    #import <SystemConfiguration/SystemConfiguration.h>
+    #import "BTCommonUtil.h"
+    #import <CoreGraphics/CoreGraphics.h>
+    #import "BTConst.h"
+    #import "BTLog.h"
+    #import "BTResource.h"
+    #import "BTPreferences.h"
+    #import "BTNetProtoConst.h"
+    #import "UIView+Base.h"
+    #import "UIImageView+WebCache.h"
+    #import "UIButton+WebCache.h"
+    #import "Reachability.h"
+#endif
